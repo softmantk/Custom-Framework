@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Hevente - Shop online for Home Appliances</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--        <link rel="stylesheet" href="css/dev.css">-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="b-red">
+        <div id="container" class="b-green ">
+            <section class="b-green top logo">
+                <div class="banner">
+                    <strong>{{title}}</strong>
+                </div>
+            </section>
+            <!--     Login       -->
+            <section class="section b-violet center-parent login-section">
+                <!--       Login box         -->
+                <div class="b-orange l-box center-child">
+                    <div class="error-box b-green"></div>
+                    <div class="login-fields">
+                        <div>
+                            <h2>Login</h2>
+                        </div>
+                        <form action="dashboard.html">
+                            <div class="center-parent">
+                                <div class="center-child">
+                                    Username :<br>
+                                    <input type="text" class="input" name="{{def_username}}">
+                                </div>
+                            </div>
+                            <div class="center-parent">
+                                <div class="center-child">
+                                    Password: <br>
+                                    <input type="password" name="{{def_pass}}" class="input">
+                                </div>
+                                <div class="button">
+                                    <button name="login" type="submit">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <!--        footer        -->
+                <footer>
+                    Hevente All Right Reserved 2017
+                </footer>
+            </section>
+        </div>
+    </body>
+</html>
